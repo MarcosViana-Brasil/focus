@@ -46,13 +46,12 @@ const testimonial = [
 
 const Testimonial = () => {
     return (
-        <section className="w-full xl:py-24 mb-24 xl:mb-32 flex justify-center items-center">
+        <section className="w-full mb-24 xl:mb-32 flex justify-center items-center">
             <div className="overflow-hidden">
                 <motion.div
                     variants={fadeInOnScroll(0.2, 0.4)}
                     initial="hidden"
                     whileInView="visible"
-                    className="overflow-hidden"
                 >
                     <h2 className="h2 mb-4 text-center">
                         What People Are Saying

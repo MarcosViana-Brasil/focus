@@ -8,6 +8,7 @@ import { ReactLenis } from 'lenis/dist/lenis-react'
 import Integrations from '@/components/INtegrations'
 import Testimonial from '@/components/Testimonial'
 import Trial from '@/components/Trial'
+import Footer from '@/components/Footer'
 
 const Home = () => {
     return (
@@ -25,8 +26,10 @@ const Home = () => {
 
                 <Trial />
 
+                <Footer />
+
                 {/* temporary div */}
-                <div className="h-[8000px]"></div>
+                {/* <div className="h-[8000px]"></div> */}
             </ReactLenis>
         </>
     )
