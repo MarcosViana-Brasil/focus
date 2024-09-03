@@ -9,6 +9,8 @@ const Trial = () => {
         <section className="xl:mb-32 w-full">
             <motion.div
                 variants={fadeInOnScroll(0.2, 0.6)}
+                initial="hidden"
+                whileInView="visible"
                 className="py-24 w-full xl:max-w-[1140px] mx-auto min-h-[300px] bg-gradient-to-r from-accent via-accent_secondary to-accent h-full flex items-center xl:rounded-2xl"
             >
                 <div className="flex flex-col xl:flex-row items-center justify-between w-full xl:px-24">
