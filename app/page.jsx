@@ -5,7 +5,7 @@ import Brands from '@/components/Brands'
 import Hero from '@/components/Hero'
 
 import { ReactLenis } from 'lenis/dist/lenis-react'
-import Integrations from '@/components/INtegrations'
+import Integrations from '@/components/Integrations'
 import Testimonial from '@/components/Testimonial'
 import Trial from '@/components/Trial'
 import Footer from '@/components/Footer'
